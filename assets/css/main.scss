@@ -67,32 +67,18 @@ blockquote {
   padding: 0.1rem 0.5rem;
 }
 
-pre {
-    padding: 1rem 2rem;
-    overflow-x: auto;
-
-    code {
-      border: 0;
-      padding-right: 0;
-      padding-left: 0;
-    }
-}
-
 // Sidebar
 .sidebar {
-  background-color: #2d2a2a;
+  background: url("/assets/img/congruent_outline.png");
+  background-position: center;
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 20rem;
-  padding: 2rem 1rem;
+  height: 100%;
+  width: inherit;
+  padding: 15px 0;
 }
 
 .sidebar-menu {
   padding: 0;
-  margin: 0 -2rem;
   .menu-items {
     list-style: none;
   }
@@ -101,7 +87,7 @@ pre {
     text-transform: uppercase;
     display: block;
     text-decoration: none;
-    padding: 1rem 1.3rem;
+    padding: 15px 20px;
     color: #fff;
     font-weight: 700;
     transition: all .35s;
@@ -113,22 +99,15 @@ pre {
   }
 }
 
-.sidebar-container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 1rem;
-}
-
 .sidebar-logo {
   .logo {
     font-family: 'Finger Paint', cursive;
     color: #15F3A8;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 36px;
+	font-weight: 700;
+	padding: 10px;
   }
 }
 
@@ -153,15 +132,11 @@ pre {
 }
 // Content
 .content {
-//   position: relative;
-//   max-width: 48rem;
-//   margin-left: 22rem;
-//   margin-right: 2rem;
-  padding: 4rem 1rem;
+  padding: 50px;
 }
 
 .main-article, .page-article, .post {
-  margin-bottom: 6rem;
+  margin-bottom: 50px;
   box-shadow: 0px 50px 110px -40px rgba(86, 119, 119, 0.68), 0px 5px 20px rgba(0, 0, 0, 0.1);
   .header-article, .page-header {
     text-align: center;
@@ -207,114 +182,8 @@ img.post-image, img.page-img {
   border-bottom: 1px solid #ccc;
 }
 
-// Pagination
-.pagination {
-  text-align: center;
-  a.next, a.previous {
-    padding: 1rem 2.5rem;
-    color: white;
-    text-transform: uppercase;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
-    text-decoration: none;
-    background: #15F3A8;
-    transition: all .35s;
-    &:hover {
-      box-shadow: none;
-    }
-  }
-  span.next, span.previous {
-    text-transform: uppercase;
-    color: white;
-    padding: 1rem 2.5rem;
-    background: #ccc;
-  }
-}
-
-// Form
-.form {
-  max-width: 100%;
-  width: 25rem;
-  margin: 0 auto;
-}
-.form-item {
-  label {
-    display: inline-block;
-    max-width: 100%;
-    margin-bottom: 0.5rem;
-    font-size: 1.2rem;
-  }
-  input {
-    height: 2.5rem;
-    text-indent: 0.75rem;
-    padding: 0;
-  }
-  textarea {
-    height: 8rem;
-    padding: 0.75rem;
-    overflow: auto;
-  }
-  input, textarea {
-    width: 100%;
-    margin-bottom: 15px;
-    transition: all .7s ease;
-    border: 1px solid #ccc;
-    outline: 0;
-    font-size: 0.7rem;
-  }
-  &:last-child {
-    margin: 1rem 0 2rem 0;
-  }
-}
-
-.form-btn {
-  width: 100%;
-  margin: 0 auto;
-  display: inherit;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  padding: 1rem 1.5rem;
-  color: #fff;
-  background: #15F3A8;
-  border: 0;
-  border-radius: 0;
-  outline: 0;
-  letter-spacing: 2px;
-  cursor: pointer;
-  transition: all .4s;
-  &:hover {
-    background-color: #1bdc9b;
-  }
-}
-
-// Media query
-@media screen and (max-width: 960px) {
-  .sidebar {
-    width: 16rem;
-  }
-  .content {
-    margin-left: 18rem;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .sidebar {
-    position: inherit;
-    width: 100%;
     text-align: center;
-  }
-  .content {
-    margin: 0 auto;
-  }
-  .sidebar-logo, .sidebar-menu {
-    margin-bottom: 3rem;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .previous{
-    margin-bottom: 0.5rem;
-  }
-  .previous, .next {
-    display: block;
   }
 }
