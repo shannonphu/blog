@@ -9,9 +9,6 @@ permalink: ':title/'
 github: shannonphu
 email: shannonphu@gmail.com
 
-# Comments
-discus-identifier: # Add your Disqus identifier
-
 # Paginate
 paginate: 5
 paginate_path: /page:num/
