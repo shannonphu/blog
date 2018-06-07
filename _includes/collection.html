@@ -1,0 +1,11 @@
+<div class="pure-g">
+	{% for post in paginator.posts %}
+	<article class="pure-u-1 pure-u-md-1-4 collection-card-wrapper">
+		<div class="collection-card">
+			<a href="{{post.url | prepend: site.baseurl}}">
+				<h2>{{post.title}}</h2>
+			</a>
+		</div>
+	</article>
+	{% endfor %}
+</div>

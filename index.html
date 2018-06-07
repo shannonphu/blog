@@ -1,22 +1,11 @@
+--- 
+layout: base 
 ---
-layout: base
----
 
-<h1>Advice</h1>
-
-{% for post in paginator.posts %}
-<article class="main-article">
-  <div class="wrap-content">
-    <header class="header-article">
-      <h2 class="title-article"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-      <div class="post-date"><span>{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
-    </header>
-    {% if post.img %}
-       <img class="post-image" src={{ "/assets/img/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
-    {% endif %}
-    <p>{{post.description}} <a class="more" href="{{post.url | prepend: site.baseurl}}">(Read more...)</a></p>
-  </div>
-</article>
-{% endfor %}
-
-{% include social-icons.html %}
+<div class="collection">
+	<h1 class="title">Advice</h1>
+	{% include collection.html %}
+	<div class="home-social">
+		{% include social-icons.html %}
+	</div>
+</div>
