@@ -1,17 +1,12 @@
 # Profile information
-name: Recruiting
-title: Recruiting
+name: Advice
+title: Advice
 description: > # this means to ignore newlines until "baseurl:"
   Job hunting can be overwhelming. This site aims to give advice on job hunting for software engineering internships/jobs.
 permalink: ':title/'
 
 # Social
-facebook: #Add your Facebook
-twitter: #Add your Twitter
-google-plus: #Add your Google+
 github: shannonphu
-
-# Contact form
 email: shannonphu@gmail.com
 
 # Comments
