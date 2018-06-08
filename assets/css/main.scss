@@ -6,8 +6,10 @@
 
 $text-background-color:#fff;
 $sidebar-background-color: #333333;
+$subtle-card-shadow: 0px 1px 4px 0px rgba(0,0,0,0.25);
 $card-shadow: 0px 50px 110px -40px rgba(86, 119, 119, 0.68), 0px 5px 20px rgba(0, 0, 0, 0.1);
-$collection-card-height: 250px;
+$collection-card-height: 200px;
+$global-background-color: #ecf3f3;
 
 *, *::after, *::before {
   box-sizing: border-box;
@@ -32,7 +34,7 @@ html {
 
 body {
   color: #515151;
-  background-color: #ecf3f3;
+  background-color: $global-background-color;
 }
 
 a {
@@ -109,24 +111,18 @@ a {
 }
 
 .home-social {
-	background-color: $sidebar-background-color;
-	margin: 100px 0;
-	position: absolute;
-	bottom: 0;
+	margin: 150px 0 50px 0;
 	width: 100%;
-}
-
-// Content
-.content {
-  padding: 50px;
 }
 
 .collection {
 	height: 100vh;
-	background-color: $sidebar-background-color;
+	background-color: $global-background-color;
 
 	.title {
 		width: 100%;
+		height: 150px;
+		line-height: 150px;
 		background-color: $sidebar-background-color;
 		color: #15F3A8;
 		text-align: center;
@@ -136,13 +132,16 @@ a {
 
 .collection-card-wrapper {
 	padding: 10px;
+	margin-top: 50px;
 
 	.collection-card {
-		height: $collection-card-height; 
+		width: $collection-card-height;
+		height: $collection-card-height;
 		line-height: $collection-card-height;
 		text-align: center;
-		background-color: rgba(255, 255, 255, 0.5);
-		box-shadow: $card-shadow;
+		margin: 0 auto;
+		background-color: $text-background-color;
+		box-shadow: $subtle-card-shadow;
 		transition: all .3s;
 		a {
 		color: #15F3A8;
@@ -163,8 +162,23 @@ a {
   border-bottom: 1px solid #ccc;
 }
 
+// Content
+.content {
+  padding: 50px;
+}
+
 @media screen and (max-width: 768px) {
   .sidebar {
-    text-align: center;
+	text-align: center;
+	position: relative;
   }
+
+	// Content
+	.content {
+		padding: 20px;
+	}
+
+	.post {
+		padding: 20px;
+	}
 }
