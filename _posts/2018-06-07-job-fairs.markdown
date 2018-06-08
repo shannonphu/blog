@@ -1,10 +1,7 @@
 ---
 layout: post
 title:  "Talking to Recruiters"
-description: You try to stand out to recruiters by talking about what relevant work/project experience you've already done. How I go about this is the following steps...
 ---
-
-# How to talk to a recruiter at a job fair
 
 You try to stand out to recruiters by talking about what relevant work/project experience you've already done. How I go about this is the following steps:
 1. Firm handshake + introduction (name + major + year)
