@@ -1,9 +1,10 @@
 # Profile information
-name: Advice
-title: Advice
-description: > # this means to ignore newlines until "baseurl:"
-  Looking for an internship or full-time job can be overwhelming. This site aims to give job hunting advice for software engineering internships/jobs.
+name: Shannon's Advice Blog
+title: Shannon's Advice Blog
+description:
+  Making it as a software engineer can be overwhelming. Here are some posts I wrote to help people learn practical software skills and improve the job hunting experience.
 permalink: ':title/'
+url: https://shannonphu.github.io/advice
 
 # Social
 email: shannonphu@gmail.com

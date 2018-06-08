@@ -64,6 +64,10 @@ a {
 	width: inherit;
 	padding: 30px 0;
 	text-align: center;
+	
+	a {
+		text-decoration: none;
+	}
 
 	.title {
 		padding: 0 30px;

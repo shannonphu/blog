@@ -3,7 +3,7 @@ layout: post
 title:  "Talking to Recruiters"
 ---
 
-You try to stand out to recruiters by talking about what relevant work and project experience you've already done. I go about doing so with the following steps:
+Try to stand out to recruiters by talking about what relevant work and project experience you've already done. I go about doing so with the following steps:
 1. Firm handshake + introduction (name + major + year)
 2. State what role you're looking for (ie software engineering internship)
 3. Ask what opportunities their company has for that role and what the program is like
