@@ -10,7 +10,8 @@ $subtle-card-shadow: 0px 1px 4px 0px rgba(0,0,0,0.25);
 $card-shadow: 0px 50px 110px -40px rgba(86, 119, 119, 0.68), 0px 5px 20px rgba(0, 0, 0, 0.1);
 $collection-card-height: 200px;
 $global-background-color: #ecf3f3;
-$global-font-family: "Ubuntu";
+$global-font-family: "Abel";
+$logo-font-family: "Anaheim";
 $global-accent-color-light: #B2E6D4;
 $global-accent-color-dark: rgb(70, 179, 140);
 
@@ -66,7 +67,7 @@ a {
 	}
 
 	.sidebar-logo {
-		font-family: "Quantico";
+		font-family: $logo-font-family;
 		font-size: 1.8em;
 		border: 2px solid $global-accent-color-light;
 		text-align: center;
@@ -78,9 +79,6 @@ a {
 			color: white;
 			padding: 20px;
 			text-decoration: none;
-		}
-
-		&:hover {
 		}
 	}
   
@@ -98,8 +96,9 @@ a {
 			color: #fff;
 			transition: all .35s;
 			&:hover {
-				transform: translateY(3px);
+				transform: translateX(5px);
 				background-color:rgba(255, 255, 255, 0.4);
+				border-left: 5px solid $global-accent-color-light;
 			}
 		}
 	}
