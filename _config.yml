@@ -6,7 +6,6 @@ description: > # this means to ignore newlines until "baseurl:"
 permalink: ':title/'
 
 # Social
-github: shannonphu
 email: shannonphu@gmail.com
 
 # Paginate
