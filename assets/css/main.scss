@@ -160,3 +160,17 @@ a {
 		padding: 20px;
 	}
 }
+
+.web-table {
+	th {
+		padding: 10px;
+	}
+
+	td {
+		padding: 5px;
+	}
+
+	tr {
+		border-bottom: 1px solid #ddd;
+	}
+}
