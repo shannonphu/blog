@@ -22,6 +22,7 @@ Recruiters are looking for your technical ability and experience building things
     * skills
     * activities
     * awards
+
 #### Describing Work Experience and Projects
 * A good starting structure is to put 1 bullet as a concise description of the overall project
 * In the next bullets **describe** what **features** you developed and **how**
@@ -42,12 +43,15 @@ Recruiters are looking for your technical ability and experience building things
     * An exception to this is if you are a first year college student and don't have too much to put on your resume yet
 * For coursework, don't put course numbers because they mean nothing to someone not attending your college. Put a course name that means something to anyone external.
 
-#### Skills:
+#### Skills
 * ***Exclude*** from skills
     * IDEs (XCode, Visual Studio, Sublime Text, etc.)
     * software applications (Adobe Photoshop, etc.)
     * Operating Systems (Windows, OSX, Linux)
     * foreign languages
+
+#### Make your resume look better
+* Use [creddle.io](http://creddle.io) for nice resume templates
 
 #### Contact Info
 * Don't put your home address (no one mails you anymore)
@@ -56,13 +60,10 @@ Recruiters are looking for your technical ability and experience building things
 #### Miscellaneous
 * Omit the objective. Those are outdated.
 
-#### Make your resume look better
-* Use http://creddle.io for nice resume templates
-
 ## Contact:
 Feel free to email me your resume for more personalized feedback after updating your resume with the above guidelines.
-* Email: skphu@ucla.edu
-* Resume: http://shannonphu.github.io/resume/
+* Email: [skphu@ucla.edu](mailto:skphu@ucla.edu)
+* Example Resume: [http://shannonphu.github.io/resume/](http://shannonphu.github.io/resume/)
 
 ## Motivation:
 I at first started reviewing resumes in 2015 while working for a small startup where I was helping with recruiting new technical team members. In 2017 I posted on UCLA ACM Hack's Facebook page offering resume reviews to anyone who wanted one right before the internship recruiting season started. I wasn't expecting much response since people are usually shy, but to my surprise I was messaged dozens of times the first few days, and I started getting 2-3 resumes per day after. This continued for the next 2 months. Most people were making the same mistakes on their resume, which is what I have accumulated in this guideline.
