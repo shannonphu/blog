@@ -24,10 +24,16 @@ html {
   font-family: $global-font-family, sans-serif;
 }
 
+@media screen and (max-width: 500px) {
+    .sidebar-logo, .menu-items {
+        font-size: calc(25px + 5 * ((100vw - 500px) / 900));
+	}
+}
+
 @media screen and (min-width: 500px) {
     html {
-        font-size:calc(15px + 5 * ((100vw - 500px) / 900));
-    }
+		font-size: calc(15px + 5 * ((100vw - 500px) / 900));
+	}
 }
 
 @media screen and (min-width: 1400px) {
@@ -147,11 +153,10 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  .sidebar {
-	position: relative;
-  }
+	.sidebar {
+		position: relative;
+	}
 
-	// Content
 	.content {
 		padding: 20px;
 	}
