@@ -10,6 +10,9 @@ $subtle-card-shadow: 0px 1px 4px 0px rgba(0,0,0,0.25);
 $card-shadow: 0px 50px 110px -40px rgba(86, 119, 119, 0.68), 0px 5px 20px rgba(0, 0, 0, 0.1);
 $collection-card-height: 200px;
 $global-background-color: #ecf3f3;
+$global-font-family: "Ubuntu";
+$global-accent-color-light: #B2E6D4;
+$global-accent-color-dark: rgb(70, 179, 140);
 
 *, *::after, *::before {
   box-sizing: border-box;
@@ -17,7 +20,7 @@ $global-background-color: #ecf3f3;
 
 html {
   line-height: 1.5;
-  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+  font-family: $global-font-family, sans-serif;
 }
 
 @media screen and (min-width: 500px) {
@@ -38,56 +41,68 @@ body {
 }
 
 a {
-  color: #15F3A8;
+  color: $global-accent-color-dark;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
-    color: #1bdc9b;
+	color: $global-accent-color-light;
+	cursor: pointer;
   }
 }
 
 // Sidebar
 .sidebar {
-  background: url("/assets/img/congruent_outline.png");
-  background-position: center;
-  position: fixed;
-  height: 100%;
-  width: inherit;
-  padding: 15px 0;
-}
+	background: url("/assets/img/congruent_outline.jpg");
+	background-color: $sidebar-background-color;
+	background-position: center;
+	position: fixed;
+	height: 100%;
+	width: inherit;
+	padding: 30px 0;
+	text-align: center;
 
-.sidebar-menu {
-  padding: 0;
-  .menu-items {
-    list-style: none;
-  }
-  .menu-links {
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    display: block;
-    text-decoration: none;
-    padding: 15px 20px;
-    color: #fff;
-    font-weight: 700;
-    transition: all .35s;
-    &:hover {
-      transform: translateY(3px);
-      background-color: #15F3A8;
-      color: #515151;
-    }
-  }
-}
+	.title {
+		padding: 0 30px;
+	}
 
-.sidebar-logo {
-  .logo {
-    font-family: 'Finger Paint', cursive;
-    color: #15F3A8;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 36px;
-	font-weight: 700;
-	padding: 10px;
-  }
+	.sidebar-logo {
+		font-family: "Quantico";
+		font-size: 1.8em;
+		border: 2px solid $global-accent-color-light;
+		text-align: center;
+		padding: 25px 0;
+		transition: all .3s;
+
+		a {
+			display: block;
+			color: white;
+			padding: 20px;
+			text-decoration: none;
+		}
+
+		&:hover {
+		}
+	}
+  
+	.sidebar-menu {
+		font-family: $global-font-family;
+		padding: 0;
+		.menu-items {
+			list-style: none;
+		}
+		.menu-links {
+			font-size: 1.2rem;
+			display: block;
+			text-decoration: none;
+			padding: 15px 20px;
+			color: #fff;
+			transition: all .35s;
+			&:hover {
+				transform: translateY(3px);
+				background-color:rgba(255, 255, 255, 0.4);
+			}
+		}
+	}
 }
 
 .social-wrapper {
@@ -100,9 +115,9 @@ a {
     text-decoration: none;
   }
   .social-icons {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     padding: 0.4rem 0.5rem;
-    color: #ccc;
+    color: #ddd;
     transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
     &:hover {
       transform: scale(1.2);
@@ -113,41 +128,6 @@ a {
 .home-social {
 	margin: 150px 0 50px 0;
 	width: 100%;
-}
-
-.collection {
-	height: 100vh;
-	background-color: $global-background-color;
-
-	.title {
-		width: 100%;
-		height: 150px;
-		line-height: 150px;
-		background-color: $sidebar-background-color;
-		color: #15F3A8;
-		text-align: center;
-		margin: 0;
-	}
-}
-
-.collection-card-wrapper {
-	padding: 10px;
-	margin-top: 50px;
-
-	.collection-card {
-		width: $collection-card-height;
-		height: $collection-card-height;
-		line-height: $collection-card-height;
-		text-align: center;
-		margin: 0 auto;
-		background-color: $text-background-color;
-		box-shadow: $subtle-card-shadow;
-		transition: all .3s;
-		a {
-		color: #15F3A8;
-		text-decoration: none;
-		}
-	}
 }
 
 .post {
@@ -169,7 +149,6 @@ a {
 
 @media screen and (max-width: 768px) {
   .sidebar {
-	text-align: center;
 	position: relative;
   }
 
