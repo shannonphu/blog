@@ -9,6 +9,9 @@ url: https://shannonphu.github.io/blog
 # Social
 email: shannonphu@gmail.com
 
+# Google Analytics
+google_analytics: UA-120537397-1
+
 # Paginate
 paginate: 5
 paginate_path: /page:num/
