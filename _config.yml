@@ -1,10 +1,10 @@
 # Profile information
-name: Shannon's Advice Blog
-title: Shannon's Advice Blog
+name: Shannon Phu | Blog
+title: Shannon Phu | Blog
 description:
   Making it as a software engineer can be overwhelming. Here are some posts I wrote to help people learn practical software skills and improve the job hunting experience.
 permalink: ':title/'
-url: https://shannonphu.github.io/advice
+url: https://shannonphu.github.io/blog
 
 # Social
 email: shannonphu@gmail.com
