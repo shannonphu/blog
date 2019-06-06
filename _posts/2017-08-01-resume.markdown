@@ -27,6 +27,7 @@ Recruiters  will only spend maybe less than 30 seconds to review a resume, so pu
 
 #### First off: 
 * Make your resume look better! Use [creddle.io](http://creddle.io) for nice resume templates
+* Only 1 page resumes!
 * Make your name's font size bigger than the rest of the resume's font size
 * Contact Info:
 	* Don't put your home address (no one mails you anymore)
@@ -42,7 +43,7 @@ Recruiters  will only spend maybe less than 30 seconds to review a resume, so pu
     * An exception to this is if you are a first year college student and don't have too much to put on your resume yet. But try to include tech related things.
 
 #### Describing Work Experience and Projects
-* A good starting structure is to put 1 bullet as a concise description of the overall project
+* A general rule of thumb is to have 3-5 bullets per experience
 * In the next bullets **describe** what **features** you developed and **how**
     * Example: instead of saying you "built a frontend website", you could say "developed responsive login page and implemented calendar visualization with React.js"
     * Example: Instead of just saying you "built new location-based iOS app for users to meet others", split this project up into discrete features you developed. 
@@ -66,6 +67,6 @@ Feel free to email me your resume for more personalized feedback after updating 
 * Example Resume: [http://shannonphu.github.io/resume/](http://shannonphu.github.io/resume/)
 
 ## Motivation:
-I at first started reviewing resumes in 2015 while working for a small startup where I was helping with recruiting new technical team members. In 2017 I posted on UCLA ACM Hack's Facebook page offering resume reviews to anyone who wanted one right before the internship recruiting season started. I wasn't expecting much response since people are usually shy, but to my surprise I was messaged dozens of times the first few days, and I started getting 2-3 resumes per day after. This continued for the next 2 months. Most people were making the same mistakes on their resume, which is what I have accumulated in this guideline.
+I first started reviewing resumes in 2015 while working for a small startup where I was helping with recruiting new technical team members. In 2017 I posted on UCLA ACM Hack's Facebook page offering resume reviews to anyone who wanted one right before the internship recruiting season started. I wasn't expecting much response since people are usually shy, but to my surprise I was messaged dozens of times the first few days, and I started getting 2-3 resumes per day after. This continued for the next 2 months and I enjoyed helping others with their resume. Most people were making the same mistakes on their resume, which is what I have accumulated in this guideline.
 
 Note: This advice is purely based off my own experiences talking to recruiters and seeing many resumes.

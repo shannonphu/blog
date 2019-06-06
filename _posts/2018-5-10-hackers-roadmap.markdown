@@ -12,28 +12,15 @@ title: "Hacker's Roadmap"
 	* [Backend Topics](#backend-web-development)
 * [iOS Mobile App Development](#ios-app-development)
 * [Data Science & Machine Learning](#data-science--machine-learning)
+* [DevOps](#devops)
 
 ---
 
 ## Full-Stack Web Development
 ### Basic Frontend Web Development
 #### Topics: HTML, CSS, Responsive Design, Javascript
-1. Learn HTML & CSS
-	* **Option 1**: 
-		1. [Codecademy](https://www.codecademy.com/en/tracks/web)
-		2. [Tutorial: Make a website on your own computer](https://www.w3.org/Style/Examples/011/firstcss.en.html)
-	* **Option 2**: Interneting is Hard
-		1. [Chapter 1: Introduction to Web Development](https://internetingishard.com/html-and-css/introduction/)
-		2. Learn HTML
-			* [Chapter 2: Common HTML Tags](https://internetingishard.com/html-and-css/basic-web-pages/)
-			* [Chapter 3: Links and Images](https://internetingishard.com/html-and-css/links-and-images/)
-		3. Learn CSS
-			* [Chapter 4: Intro to CSS](https://internetingishard.com/html-and-css/hello-css/)
-			* [How to link CSS to your HTML](https://www.w3schools.com/css/css_howto.asp)
-			* [Chapter 5: Box Model](https://internetingishard.com/html-and-css/css-box-model/)
-			* [Chapter 6: Selectors](https://internetingishard.com/html-and-css/css-selectors/)
-			* [Chapter 7: Float](https://internetingishard.com/html-and-css/floats/)
-			* [Chapter 9: Positioning](https://internetingishard.com/html-and-css/advanced-positioning/)
+1. HTML & CSS
+	* [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/)
 2. Project: Build your personal website using just HTML/CSS!
 	* Don't worry if you don't know how to start! Revisit the tutorials and Google your questions! Starting is always the hardest part.
 	* **Optional for debugging**: If you use Chrome, use [Chrome Developer Tools](https://www.youtube.com/watch?v=wcFnnxfA70g) by right-clicking and selecting "Inspect" to debug and edit any website in-browser
@@ -51,18 +38,16 @@ title: "Hacker's Roadmap"
 	* [Why JS?](https://www.thoughtco.com/what-is-javascript-used-for-2037679)
 	* [Codecademy: Learn JS](https://www.codecademy.com/learn/introduction-to-javascript)
 	* [Intro to the DOM](https://www.digitalocean.com/community/tutorials/introduction-to-the-dom)
-	* Using JS to interact with a website	
-		* [Interacting with Forms](https://www.codecademy.com/courses/html-javascript-css/0/1)
-		* [Altering the DOM](http://eloquentjavascript.net/14_dom.html)
+	* [Altering the DOM](http://eloquentjavascript.net/14_dom.html)
 6. Project: Add animation, interaction, or a form to your website using Javascript!
-7. Congratz! You know enough to build static frontend websites! Keep practicing by making websites till you feel more comfortable.
+7. You know enough to build static frontend websites! Keep practicing by making websites till you feel more comfortable.
 
 ### Intermediate Frontend Web Development
 This section is not required, but encouraged if time permits. If you do read anything here, read up on #2: Templating Engines and #4: Using CDNs.
-1. [jQuery Overview](https://medium.com/front-end-hacking/jquery-109c5aebf028)
+1. [jQuery](https://www.codecademy.com/learn/learn-jquery)
 	* Note: jQuery is typically not used for large projects, and is seen more in small purely frontend projects. So having some idea of what it looks like is useful.
 2. Templating Engines
-	* [Introduction](https://www.htmlgoodies.com/beyond/javascript/js-ref/intro-to-javascript-template-engines.html)
+	* [Introduction](https://www.sitepoint.com/overview-javascript-templating-engines/)
 	* [Handlebars.js Example](https://tutorialzine.com/2015/01/learn-handlebars-in-10-minutes)
 3. CSS Preprocessor: Sass
 	* [Sass](https://sass-lang.com/guide)
@@ -77,10 +62,10 @@ This section is not required, but encouraged if time permits. If you do read any
 0. Installation
 	1. Install [`npm` and `node.js`](https://www.npmjs.com/get-npm)
 1. Package/Dependency Managers
-	* [What is `npm`?](https://docs.nodejitsu.com/articles/getting-started/npm/what-is-npm/)
+	* [What is `npm`?](https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/)
 	* [Basic `npm` commands](http://dreamerslab.com/blog/en/npm-basic-commands/)
 2. React.js
-	* [Introduction](https://www.codementor.io/johnkingzy/beginners-guide-into-reactjs-quick-dive-a6qa5medg)
+	* [Introduction](https://programmingwithmosh.com/react/react-tutorial/)
 	* [Hello, world Example](https://reactjs.org/docs/hello-world.html)
 	* [Build a tic-tac-toe game](https://reactjs.org/tutorial/tutorial.html)
 3. [`react-router`](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf)
@@ -89,12 +74,10 @@ This section is not required, but encouraged if time permits. If you do read any
 	* Introduction
 		* [Part 1](https://www.smashingmagazine.com/2016/06/an-introduction-to-redux/)
 		* [Part 2](https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6)
-	* [Intro Code Example](https://dev.to/aurelkurtula/a-beginners-introduction-to-working-with-redux-in-react-13k)
-	* Video Series: egghead.io
-		* [Videos](https://egghead.io/courses/getting-started-with-redux)
-		* [Additional Commentary](https://github.com/tayiorbeii/egghead.io_redux_course_notes)
-	* Code Example: [Todo List](https://redux.js.org/basics/example-todo-list)
+	* [Build a Todo List](https://redux.js.org/basics/basic-tutorial)
+	* [Build a Reddit Feed](https://redux.js.org/advanced/advanced-tutorial)
 6. Project: Build a new react app using redux.
+
 
 ### Backend Web Development
 1. [What is frontend & backend development](https://www.upwork.com/hiring/for-clients/frontend-vs-backend-web-development/)
@@ -130,31 +113,15 @@ This section is not required, but encouraged if time permits. If you do read any
 		* event, food, etc. recommendation app
 		* workout buddy finder app
 		* Meetup, Twitter, Reddit, etc. clone
-11. Congratz! This completes your full-stack web development roadmap. Continue working on your own projects till you feel comfortable building your own API and web app.
+11. This completes your full-stack web development roadmap! Continue working on your own projects till you feel comfortable building your own API and web app.
 
 ## iOS App Development
-1. Learn Swift
-	* [Part 1: Variables & Expressions](https://www.raywenderlich.com/143771/swift-tutorial-part-1-expressions-variables-constants)
-	* [Part 2: Types & Operations](https://www.raywenderlich.com/143885/swift-tutorial-part-2-types-operations)
-	* [Part 3: Flow Control](https://www.raywenderlich.com/143970/swift-tutorial-part-3-flow-control)
-	* Part 4: Optionals
-		* [Part A](https://codeburst.io/a-colorful-guide-to-swift-optionals-357c2b92684b)
-		* [Part B](https://medium.com/ios-os-x-development/optionals-in-swift-for-newbies-7199a30707d5)
-	* [Part 5: Classes](https://www.raywenderlich.com/160728/object-oriented-programming-swift)
-2. iOS Core Concepts
-	* **Option 1:** [Video Series](https://www.youtube.com/playlist?list=PLMRqhzcHGw1ZkH8RuznGMS0NZs0jWQQ5a)
-		* [What is a view controller?](https://developer.apple.com/documentation/uikit/uiviewcontroller?changes=_3)
-		* [View Controller Life Cycle](https://medium.com/@amyjoscelyn/the-life-cycle-of-a-view-c98f296fd84e)
-		* [More on IBOutlets & Common Mistakes](https://youtu.be/dVYTmGZmHEg)
-		* [How to get help with UIKit](https://youtu.be/PIu7b0hc0LM)
-	* **Option 2:** Apple's Official Tutorial
-		* [Build the Basic UI](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/BuildABasicUI.html#//apple_ref/doc/uid/TP40015214-CH5-SW1)
-		* [Connect the UI to the Code](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/ConnectTheUIToCode.html#//apple_ref/doc/uid/TP40015214-CH22-SW1)
-		* [More on IBOutlets & Common Mistakes](https://youtu.be/dVYTmGZmHEg)
-		* [View Controllers](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/WorkWithViewControllers.html#//apple_ref/doc/uid/TP40015214-CH6-SW1)
-		* [View Controller Life Cycle](https://medium.com/@amyjoscelyn/the-life-cycle-of-a-view-c98f296fd84e)
-		* [Custom Views](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/ImplementingACustomControl.html#//apple_ref/doc/uid/TP40015214-CH19-SW1)
-		* [How to get help with UIKit](https://youtu.be/PIu7b0hc0LM)
+1. [Learn Swift](https://codewithchris.com/learn-swift/)
+2. [iOS Core Concepts](https://academy.codewithchris.com/p/beginners-course-free)
+3. Important Concepts
+	* [What is a view controller?](https://developer.apple.com/documentation/uikit/uiviewcontroller?changes=_3)
+	* [View Controller Life Cycle](https://medium.com/@amyjoscelyn/the-life-cycle-of-a-view-c98f296fd84e)
+	* [ARC - Memory Management](https://www.raywenderlich.com/966538-arc-and-memory-management-in-swift)
 3. Guided Tutorials
 	* Build a Card Matching Game: [Video Series](https://www.youtube.com/playlist?list=PLMRqhzcHGw1YdahNsCLZdSVfNv0stwvdx)
 	* [UITableViewController](https://youtu.be/5lH5fSuDVxg)	
@@ -162,7 +129,7 @@ This section is not required, but encouraged if time permits. If you do read any
 	* [Animation Tutorial](https://www.youtube.com/watch?v=5b91dFhZz0g)
 4. [Introducing Other Types of View Controllers](https://developer.apple.com/library/content/documentation/WindowsViews/Conceptual/ViewControllerCatalog/Introduction.html)
 	* in iOS apps you often put different view controllers together to create the full app storyboard (i.e. `UITableViewController`, `UITabBarController`, `UICollectionViewController`)
-5. [CocoaPods](https://stackoverflow.com/a/22261215)
+5. [CocoaPods](https://stackoverflow.com/questions/22261124/what-is-cocoapods/22261215)
 	* [Installation](https://youtu.be/oNKVVBN2JN0)
 	* [AlamoFire Tutorial](https://youtu.be/Brei27hdnF8)
 	* [Firebase Tutorials](https://www.youtube.com/playlist?list=PLMRqhzcHGw1ZRUB86rmNqG15Sr5jV-2NU)
@@ -171,12 +138,11 @@ This section is not required, but encouraged if time permits. If you do read any
 	* Delegates & Protocols
 		* [What is it?](https://blog.bobthedeveloper.io/the-meaning-of-delegate-in-swift-347eaa9674d)
 		* [Example](https://medium.com/@jamesrochabrun/implementing-delegates-in-swift-step-by-step-d3211cbac3ef)
-	* [Memory Management](https://www.raywenderlich.com/134411/arc-memory-management-swift)
 
 
 ## Data Science & Machine Learning
-**Topics: Python, pandas, numpy, matplotlib, traditional ML models, guided & unguided projects**
-1. [Learn Python](https://www.codecademy.com/learn/learn-python)
+**Topics: Python, pandas, numpy, matplotlib, machine learning concepts and project tutorials**
+1. [Learn Python](https://www.codecademy.com/learn/learn-python-3)
 2. Setup [`virtualenv`](https://virtualenv.pypa.io/en/stable) to create and work in a Python virtual environment
 	* [Why use it?](https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/)
 	* [How to use `virtualenv`](http://www.simononsoftware.com/virtualenv-tutorial/)
@@ -190,58 +156,22 @@ This section is not required, but encouraged if time permits. If you do read any
 	* [Part 2](https://hackernoon.com/introduction-to-numpy-2-an-absolute-beginners-guide-to-machine-learning-and-data-science-967b21e3542a)
 4. [Matplotlib Tutorial: Political Tweets](https://www.dataquest.io/blog/matplotlib-tutorial/)
 5. Machine Learning Concepts
-	* **Option 1:**
-		* [Guide from Adit Deshpande from ACM AI @ UCLA](https://github.com/adeshpande3/Machine-Learning-Links-And-Lessons-Learned)
-	* **Option 2:**
-		* Introduction:
-			* [A visual introduction](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
-			* [A more in-depth introduction](https://www.digitalocean.com/community/tutorials/an-introduction-to-machine-learning)
-		* Linear Regression
-			* [Introduction](https://medium.com/simple-ai/linear-regression-intro-to-machine-learning-6-6e320dbdaf06)
-			* [Cost Functions & Gradient Descent](https://medium.com/@lachlanmiller_52885/machine-learning-week-1-cost-function-gradient-descent-and-univariate-linear-regression-8f5fe69815fd)
-			* [More on gradient descent & overfitting](https://hackernoon.com/supervised-machine-learning-linear-regression-in-python-541a5d8141ce)
-			* [Code Example](http://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html)
-		* K Nearest Neighbors (kNN)
-			* [Introduction](https://www.youtube.com/watch?v=44jq6ano5n0)
-			* [Terminology, Applications, and Trade-offs](https://medium.com/@adi.bronshtein/a-quick-introduction-to-k-nearest-neighbors-algorithm-62214cea29c7)
-			* [Algorithm Visualization](https://akash-goswami.github.io/knn-what-how-why/)
-			* Code Example: [Breast Cancer](https://www.youtube.com/watch?v=1i0zu9jHN6U)
-			* Code Example: [Iris Flower](https://kevinzakka.github.io/2016/07/13/k-nearest-neighbor/)
-		* Support Vector Machines (SVM)
-			* [Introduction](https://blog.statsbot.co/support-vector-machines-tutorial-c1618e635e93)
-			* [Code Example](https://pythonprogramming.net/support-vector-machine-svm-example-tutorial-scikit-learn-python/)
-		* Logistic Regression
-			* [Introduction](https://www.quora.com/What-is-logistic-regression/answer/Thirumal-Venkat-1?share=b8bc2ce1&srid=aP23)
-			* [Sigmoid Function & Mathematical Introduction](https://machinelearningmastery.com/logistic-regression-for-machine-learning/)
-			* Code Example: [Glass Identification](http://nbviewer.jupyter.org/github/justmarkham/DAT8/blob/master/notebooks/12_logistic_regression.ipynb)
-		* K-Means
-			* [Introduction](https://www.datascience.com/blog/k-means-clustering)
-			* Video: [Clustering Introduction](https://www.youtube.com/watch?v=ZueoXMgCd1c)
-			* [K-Means vs. kNN](http://abhijitannaldas.com/kmeans-vs-knn-in-machine-learning.html)
-			* Video Series: Code Example
-				1. [Part 1](https://www.youtube.com/watch?v=8p6XaQSIFpY)
-				2. [Part 2](https://www.youtube.com/watch?v=j6jstahQp2A)
-			* [Elbow method](https://en.wikipedia.org/wiki/Elbow_method_(clustering))
-			* Code Example: [Self-implementation of Clustering](https://mubaris.com/2017/10/01/kmeans-clustering-in-python/)
-			* Additional Topics
-				* Principal Components Analysis: Dimensionality Reduction
-		* Decision Trees
-			* [Introduction](https://chunml.github.io/ChunML.github.io/tutorial/Decision-Tree/)
-			* Code Example: [Iris Flower](http://chrisstrelioff.ws/sandbox/2015/06/08/decision_trees_in_python_with_scikit_learn_and_pandas.html)
-			* Additional Topics
-				* Entropy
-				* Information Gain
-		* [Neural Networks](https://github.com/adeshpande3/Machine-Learning-Links-And-Lessons-Learned)
-			* Do Sections 8-10 under "Learning Machine Learning" 
-			* Credits: Adit Deshpande from ACM AI @ UCLA
-6. Optional for more mathematical intuition: [Andrew Ng's Stanford Coursera Course](https://www.coursera.org/learn/machine-learning) 
-7. Guided Data Cleaning Project
+	* [A visual introduction](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
+	* [Another introduction](https://www.digitalocean.com/community/tutorials/an-introduction-to-machine-learning)
+	* [Guide from ACM AI @ UCLA](https://github.com/adeshpande3/Machine-Learning-Links-And-Lessons-Learned)
+7. Feature Engineering Tutorials
     * [Video Game Reviews](https://www.dataquest.io/blog/pandas-python-tutorial/)
     * [Thanksgiving Foods](https://www.dataquest.io/blog/pandas-tutorial-python-2/)
-8. Guided Data Storytelling Projects
+8. Data Storytelling Tutorials
     * [NYC Education](https://www.dataquest.io/blog/data-science-portfolio-project/)
     * [Fannie Mae Loan Foreclosure](https://www.dataquest.io/blog/data-science-portfolio-machine-learning/)
 	* Video Series: [Predicting the stock market](https://pythonprogramming.net/data-acquisition-machine-learning/)
 9. Do your own project!
 	* Choose a dataset from [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets), clean the data, try to extract meaning/trends, and make predictions and classifications similar to the guided projects above.
-10. Congratz, you've learned and done enough to gain enough knowledge to onboard to more complex data science and machine learning projects in the future!
+10. Congrats, you've learned and done enough to gain enough knowledge to onboard to more complex data science and machine learning projects in the future!
+
+## DevOps
+* [Learn Git](https://thenewstack.io/tutorial-git-for-absolutely-everyone/)
+* Docker
+	* [Intro to Docker](https://docker-curriculum.com/)
+	* [Deploy a web-app with Docker](https://docker-curriculum.com/#webapps-with-docker)
