@@ -68,7 +68,7 @@ This section is not required, but encouraged if time permits. If you do read any
 	* [Introduction](https://programmingwithmosh.com/react/react-tutorial/)
 	* [Hello, world Example](https://reactjs.org/docs/hello-world.html)
 	* [Build a tic-tac-toe game](https://reactjs.org/tutorial/tutorial.html)
-3. [`react-router`](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf)
+3. [`react-router`](https://blog.pshrmn.com/simple-react-router-v4-tutorial/)
 4. Project: Build a restaurant menu using React.js while trying to separate the view from the underlying data.
 5. Redux
 	* Introduction
@@ -80,8 +80,8 @@ This section is not required, but encouraged if time permits. If you do read any
 
 
 ### Backend Web Development
-1. [What is frontend & backend development](https://www.upwork.com/hiring/for-clients/frontend-vs-backend-web-development/)
-2. [Client-server Architecture Introduction & Analogy](http://someshinyobject.com/posts/analogy-time-client-side-vs-server-side/)
+1. [What is frontend & backend development](https://blog.codeanalogies.com/2018/04/07/front-end-v-back-end-explained-by-waiting-tables-at-a-restaurant/)
+2. [Client-server Architecture Introduction & Analogy](https://blog.codeanalogies.com/2018/04/26/web-servers-explained-by-running-a-microbrewery/)
 3. [What is an API?](https://blog.codeanalogies.com/2018/02/27/web-apis-explained-by-selling-goods-from-your-farm/)
 	* [Another Analogy](https://medium.com/@tyteen4a03/how-apis-work-an-analogy-for-dummies-ac6ee1d1671b)
 4. [What is HTTP?](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
@@ -93,16 +93,15 @@ This section is not required, but encouraged if time permits. If you do read any
 6. [Server-side Web Frameworks](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks)
 7. [Databases: what & why](https://medium.com/omarelgabrys-blog/database-introduction-part-1-4844fada1fb0)
 	* [Relational vs. non-relational databases](https://www.pluralsight.com/blog/software-development/relational-non-relational-databases)
-8. Piecing everything together: [Full-Stack  Application Architecture](https://stackify.com/n-tier-architecture/)
-9. Framework Specific Tutorials
+8. Framework Specific Tutorials
 	* Try choosing 1 particular framework (ie Node.js, Django, Ruby on Rails (RoR), etc.) and stick with it till you are comfortable with implementing the concepts you read about above. Then feel free to experiment with other frameworks to gain exposure in how they also implement the same thing.
 	* Note: UCLA students tend to have more experience with Node.js due to UCLA ACM mentors/workshops/events, so it's recommended you learn Node.js first if you are a UCLA student for the larger support community.
 	<!-- Resources on various web frameworks -->
 	
 	| Node.js | Django | RoR |
 	|---------|--------|-----|
-	| [Installation](https://nodejs.org/en/)         |[Installation](https://docs.djangoproject.com/en/2.0/intro/install/)        |[Installation](http://installrails.com/)
-	| [Video Tutorials](https://www.youtube.com/playlist?list=PL55RiY5tL51oGJorjEgl6NVeDbx_fO5jR)         |[Official Tutorials: Part 1 - 7](https://docs.djangoproject.com/en/2.0/intro/tutorial01/)        |[Michael Hartl's RoR Book](https://www.railstutorial.org/book)     |
+	| [Installation](https://nodejs.org/en/)         |[Installation](https://docs.djangoproject.com/en/3.0/topics/install/)        |[Installation](http://installrails.com/)
+	| [Video Tutorials](https://www.youtube.com/playlist?list=PL55RiY5tL51oGJorjEgl6NVeDbx_fO5jR)         |[Official Tutorials: Part 1 - 7](https://docs.djangoproject.com/en/3.0/intro/tutorial01/)        |[Michael Hartl's RoR Book](https://www.railstutorial.org/book)     |
 	| [Build a Web API](https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4)         |[Build a Web API](https://codeburst.io/building-an-api-with-django-rest-framework-and-class-based-views-75b369b30396)        |[Build a Web API](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one)     
 	| [Build an online shopping cart](https://www.youtube.com/playlist?list=PL55RiY5tL51rajp7Xr_zk-fCFtzdlGKUp)         |[Build a blog Tutorial](https://tutorial.djangogirls.org/en/)        |     |
 	{: .web-table }
@@ -148,7 +147,7 @@ This section is not required, but encouraged if time permits. If you do read any
 	* [How to use `virtualenv`](http://www.simononsoftware.com/virtualenv-tutorial/)
 	* What is `requirements.txt`?
 		* [A Better `pip` Workflow](https://www.kennethreitz.org/essays/a-better-pip-workflow)
-		* [`pip freeze`](https://websauna.org/docs/tutorials/deployment/freeze.html)
+		* [`pip freeze`](https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1)
 3. [Introduction to `pandas`](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python)
 	* Note: you can follow along with as much of the tutorial as you want till feeling comfortable with Pandas
 4. Introduction to `numpy`
