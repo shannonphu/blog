@@ -20,7 +20,7 @@ If you're going into your first internship this summer, here is some advice for 
 
 ### Return Offers:
 * Universities often have an agreement with companies for a minimum of X weeks before the intern has to sign their return offer from an internship
-	* For UCLA: [[Source]](https://www.career.ucla.edu/RecruitmentPolicies)
+	* For UCLA: [[Source]](https://career.ucla.edu/employers/employer-recruitment-policies)
 		* Return *internship* offers are given only 2 weeks from internship end date to sign the offer letter
 		* Return *full time* offers are given until Nov. 1st to sign the offer
 * Companies will often give you the *smallest* amount of time to decide if you want to return based on your school's policy!
