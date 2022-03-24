@@ -20,6 +20,7 @@ title: "Hacker's Roadmap"
 ### Basic Frontend Web Development
 #### Topics: HTML, CSS, Responsive Design, Javascript
 1. HTML & CSS
+	* [Intro to HTML](https://www.websiteplanet.com/blog/html-guide-beginners/)
 	* [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/)
 2. Project: Build your personal website using just HTML/CSS!
 	* Don't worry if you don't know how to start! Revisit the tutorials and Google your questions! Starting is always the hardest part.
